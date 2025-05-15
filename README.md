@@ -1,2 +1,2 @@
 # Tacorito
-a Taco resturant website structure made with HTML and very little css .
+A Taco resturant website structure made with HTML and very little css .
