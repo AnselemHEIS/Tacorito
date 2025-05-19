@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="Author" content="ANSELEM">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tacorito's Opening hours page">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Opening Hours</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="ANSELEM">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tacorito's Opening hours page">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Opening Hours</title>
+</head>
+<body>
+  <header>
     <h2><strong>Tacorito Opening Hours</strong></h2>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav aria-label="primary navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
     <figure>
-    <img src="img/tacos_tray_400x267.png" alt="Stacked Tasty tacos" width="400" height="267" title="tasty tacos">
-    <figcaption>Tasty tacos in a Tray</figcaption>
+      <img src="img/tacos_tray_400x267.png" alt="Stacked Tasty tacos" width="400" height="267" title="tasty tacos">
+      <figcaption>Tasty tacos in a Tray</figcaption>
     </figure>
-    <hr>
+  </header>
+  <hr>
+  <main>
     <p>We are open 7 days a week!</p>
     <dl>
-        <dd>Sunday-Thursday</dd>
-        <dt>9am-9pm</dt>
-        <dd>Friday-Saturday</dd>
-        <dt>9am-11pm</dt>
+      <dd>Sunday-Thursday</dd>
+      <dt><time datetime="09:00">9am</time>-<time datetime="21:00">9pm</time></dt>
+      <dd>Friday-Saturday</dd>
+      <dt><time datetime="09:00">9am</time>-<time datetime="23:00">11pm</time></dt>
     </dl>
-    <a href="#">Back to Top</a>
-    <hr>
-   copyright &copy;TACORITO
-  </body>
+  </main>
+  <hr>
+  <footer>
+    <a href="#">Top</a>
+    copyright &copy;TACORITO
+  </footer>
+</body>
 </html>
